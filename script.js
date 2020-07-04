@@ -6,7 +6,7 @@ var color2=document.querySelector(".color2");
 function gradient()
 {
     body.style.background="linear-gradient(to right"+","+color1.value+","+color2.value+")";
-    var h3=document.querySelector("h3");
+    var h3=document.querySelector("p");
     h3.textContent=body.style.background + ";";
 }
 color1.addEventListener("input",gradient);
