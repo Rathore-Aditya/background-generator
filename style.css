@@ -1,0 +1,15 @@
+body
+{
+  background: linear-gradient(to right,red,blue);
+}
+h1{
+    letter-spacing: 2px;
+    color: BLACK;
+    font-size: 3rem;
+    font-family: 'Modak', cursive;
+
+}
+h3{
+    margin-top: 58px;
+    letter-spacing: 2px;
+}
