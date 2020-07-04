@@ -9,7 +9,18 @@ h1{
     font-family: 'Modak', cursive;
 
 }
-h3{
+.update{
     margin-top: 58px;
     letter-spacing: 2px;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 400px)
+{
+   .update{font-size: 1.5rem;}
+   h1{
+       font-size: 2rem;
+   }
+   h2{
+       font-size: 1.5rem;
+   }
 }
